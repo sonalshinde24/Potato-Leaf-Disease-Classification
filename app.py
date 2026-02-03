@@ -25,7 +25,7 @@ st.set_page_config(
 # ================= LOAD MODEL =================
 @st.cache_resource
 def load_model():
-    return tf.keras.models.load_model("potato_disease_model.keras")
+    return tf.keras.models.load_model("potato_disease_model.keras",compile=False)
 
 model = load_model()
 
@@ -323,3 +323,4 @@ st.markdown("""
 <b>Disclaimer:</b> For educational and decision-support purposes only.
 </div>
 """, unsafe_allow_html=True)
+
