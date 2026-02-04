@@ -1,4 +1,4 @@
-🥔 Potato Leaf Disease Classification using CNN (Streamlit App)
+# 🥔 Potato Leaf Disease Classification using CNN (Streamlit App)
 
 An end-to-end Deep Learning web application to classify potato leaf diseases using a Convolutional Neural Network (CNN) model built with Keras and deployed using Streamlit.
 
@@ -10,7 +10,7 @@ The app allows users to upload a potato leaf image and instantly predicts whethe
 📊 Dataset:
 👉 https://www.kaggle.com/datasets/arjuntejaswi/plant-village
 
------
+---
 
 📌 Project Overview
 
@@ -19,7 +19,7 @@ This project uses Deep Learning (CNN) to automatically identify potato leaf cond
 
 The model is trained on the PlantVillage dataset and deployed as an interactive Streamlit web app.
 
------
+---
 
 🧠 Diseases Classified
 
@@ -29,7 +29,7 @@ The model classifies potato leaf images into the following categories:
 🟤 Early Blight
 ⚫ Late Blight
 
------
+---
 
 🛠️ Tech Stack
 
@@ -61,12 +61,16 @@ The model classifies potato leaf images into the following categories:
 - Model Format: .keras
 - The trained model is saved and directly loaded into the Streamlit app for inference.
 
+---
+
 🚀 How the App Works
 
 - User uploads a potato leaf image.
 - Image is resized and preprocessed.
 - CNN model predicts the disease class.
 - Prediction result is displayed instantly on the UI.
+
+---
 
 ▶️ Run Locally
 1️⃣ Clone the Repository
@@ -83,12 +87,15 @@ pip install -r requirements.txt
 ```bash
 streamlit run app.py
 ```
+---
 
 🎯 Results
 
 - High accuracy in classifying potato leaf diseases
 - Fast and user-friendly web interface
 - Real-time disease prediction from images
+
+---
 
 🌱 Future Improvements
 
@@ -103,3 +110,4 @@ streamlit run app.py
 - PlantVillage Dataset for providing high-quality agricultural images
 - Kaggle community
 - Streamlit for easy deployment
+---
