@@ -75,7 +75,7 @@ The model classifies potato leaf images into the following categories:
 ▶️ Run Locally
 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/sonalshinde24/potato-leaf-disease-classification.git
+git clone https://github.com/sonalshinde24/Potato-Leaf-Disease-Classification.git
 cd potato-leaf-disease-classification
 ```
 2️⃣ Install Dependencies
