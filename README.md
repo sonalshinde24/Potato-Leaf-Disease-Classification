@@ -41,6 +41,7 @@ The model classifies potato leaf images into the following categories:
 - Deployment: Streamlit Cloud
 
 📂 Project Structure
+```bash
 .
 ├── app.py                     # Streamlit application
 ├── potato_disease_model.keras # Trained CNN model
