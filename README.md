@@ -48,9 +48,8 @@ The model classifies potato leaf images into the following categories:
 ├── background.jpg             # Background image for UI
 ├── requirements.txt           # Python dependencies
 └── README.md                  # Project documentation
-
-
------
+```
+---
 
 🧪 Model Details
 
@@ -71,14 +70,19 @@ The model classifies potato leaf images into the following categories:
 
 ▶️ Run Locally
 1️⃣ Clone the Repository
+```bash
 git clone https://github.com/sonalshinde24/potato-leaf-disease-classification.git
 cd potato-leaf-disease-classification
-
+```
 2️⃣ Install Dependencies
+```bash
 pip install -r requirements.txt
+```
 
 3️⃣ Run the Streamlit App
+```bash
 streamlit run app.py
+```
 
 🎯 Results
 
